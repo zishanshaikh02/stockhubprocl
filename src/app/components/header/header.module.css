@@ -1,0 +1,41 @@
+.search_suggestions {
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%; 
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+
+  .search_suggestions ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .search_suggestions li {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .search_suggestions li:hover {
+    background-color: #f0f0f0;
+  }
+   
+  .focus_outline:focus {
+    outline: 2px solid blue; /* Adjust the color and width as needed */
+  }
+  .mobile-menu-shift {
+    left: -330px; /* Adjust the value to control the amount of the shift */
+  }
+  
+  /* Apply the shift only for screens with a max-width of 768px (typical mobile width) */
+  @media (max-width: 768px) {
+    .mobile-menu-shift {
+      left: -330px; /* Adjust the value to control the amount of the shift */
+    }
+  }
+  
